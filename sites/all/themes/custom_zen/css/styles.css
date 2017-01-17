@@ -1,15 +1,11 @@
-#admin-menu {
-font-size:16px;
-}
-
 * {
   box-sizing: border-box;
 }
 
 html {
-  font-size: 100%;
+  font-size: 14pt;
   line-height: 1.5em;
-  font-family: Verdana, Tahoma, "DejaVu Sans", sans-serif;
+  font-family: 'Roboto', sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   min-height: 100%;
