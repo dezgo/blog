@@ -68,9 +68,13 @@ function blog_feature_field_default_field_instances() {
     'description' => '',
     'display' => array(
       'default' => array(
-        'label' => 'above',
-        'settings' => array(),
-        'type' => 'hidden',
+        'label' => 'hidden',
+        'module' => 'image',
+        'settings' => array(
+          'image_link' => '',
+          'image_style' => 'blog_title',
+        ),
+        'type' => 'image',
         'weight' => 0,
       ),
       'teaser' => array(
@@ -105,15 +109,16 @@ function blog_feature_field_default_field_instances() {
       'settings' => array(
         'insert' => 1,
         'insert_absolute' => 0,
-        'insert_class' => '',
-        'insert_default' => 'image',
+        'insert_class' => 'img-responsive',
+        'insert_default' => 'image_blog_inline',
         'insert_styles' => array(
           'auto' => 0,
           'icon_link' => 0,
           'image' => 'image',
-          'image_blog_title' => 'image_blog_title',
-          'image_large' => 'image_large',
-          'image_medium' => 'image_medium',
+          'image_blog_inline' => 'image_blog_inline',
+          'image_blog_title' => 0,
+          'image_large' => 0,
+          'image_medium' => 0,
           'image_thumbnail' => 0,
           'link' => 0,
         ),
@@ -141,7 +146,7 @@ function blog_feature_field_default_field_instances() {
         'label' => 'above',
         'settings' => array(),
         'type' => 'hidden',
-        'weight' => 2,
+        'weight' => 11,
       ),
       'teaser' => array(
         'label' => 'above',

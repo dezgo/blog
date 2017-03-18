@@ -33,8 +33,8 @@ function blog_feature_image_default_styles() {
       1 => array(
         'name' => 'image_scale_and_crop',
         'data' => array(
-          'width' => 300,
-          'height' => 200,
+          'width' => 944,
+          'height' => 410,
         ),
         'weight' => 1,
       ),
