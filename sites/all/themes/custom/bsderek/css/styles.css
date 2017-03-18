@@ -6471,4 +6471,23 @@ a.icon-after .glyphicon {
 .archive-body {
   margin-bottom: 2em; }
 
+.wrapped-img {
+  float: left;
+  padding: 10px; }
+
+.main-container {
+  max-width: 950px; }
+
+p:first-child:first-letter {
+  font-size: 400%;
+  float: left;
+  margin-right: .1em; }
+
+img.image-blog_inline, img.img-responsive {
+  margin-top: 2em;
+  margin-bottom: 2em; }
+
+body {
+  margin-bottom: 5em; }
+
 /*# sourceMappingURL=styles.css.map */
