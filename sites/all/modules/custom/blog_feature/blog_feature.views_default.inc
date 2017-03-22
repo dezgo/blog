@@ -69,7 +69,7 @@ function blog_feature_views_default_views() {
   $handler->display->display_options['fields']['field_image']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['field_image']['click_sort_column'] = 'fid';
   $handler->display->display_options['fields']['field_image']['settings'] = array(
-    'image_style' => 'thumbnail',
+    'image_style' => 'archive-thumbnail',
     'image_link' => 'content',
   );
   $handler->display->display_options['fields']['field_image']['delta_limit'] = '1';
@@ -94,7 +94,7 @@ function blog_feature_views_default_views() {
   $handler->display->display_options['fields']['body']['alter']['text'] = '[body]
 
 ';
-  $handler->display->display_options['fields']['body']['alter']['max_length'] = '300';
+  $handler->display->display_options['fields']['body']['alter']['max_length'] = '200';
   $handler->display->display_options['fields']['body']['alter']['strip_tags'] = TRUE;
   $handler->display->display_options['fields']['body']['alter']['trim'] = TRUE;
   $handler->display->display_options['fields']['body']['element_type'] = 'div';

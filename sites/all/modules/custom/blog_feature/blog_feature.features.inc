@@ -26,6 +26,36 @@ function blog_feature_views_api($module = NULL, $api = NULL) {
 function blog_feature_image_default_styles() {
   $styles = array();
 
+  // Exported image style: archive-thumbnail.
+  $styles['archive-thumbnail'] = array(
+    'label' => 'Archive Thumbnail',
+    'effects' => array(
+      5 => array(
+        'name' => 'image_scale_and_crop',
+        'data' => array(
+          'width' => 80,
+          'height' => 80,
+        ),
+        'weight' => 1,
+      ),
+    ),
+  );
+
+  // Exported image style: blog_inline.
+  $styles['blog_inline'] = array(
+    'label' => 'Blog inline',
+    'effects' => array(
+      2 => array(
+        'name' => 'image_scale_and_crop',
+        'data' => array(
+          'width' => 500,
+          'height' => 400,
+        ),
+        'weight' => 1,
+      ),
+    ),
+  );
+
   // Exported image style: blog_title.
   $styles['blog_title'] = array(
     'label' => 'Blog Title',
