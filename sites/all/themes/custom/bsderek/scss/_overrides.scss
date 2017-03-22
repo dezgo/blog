@@ -883,7 +883,7 @@ a {
   max-width: 950px;
 }
 
-p:first-child:first-letter {
+p.field-name-body:first-child:first-letter {
     font-size: 400%;
     float: left;
     margin-right: .1em;
@@ -894,6 +894,17 @@ img.image-blog_inline, img.img-responsive {
   margin-bottom: 2em;
 }
 
+.image-archive-row {
+  overflow: hidden;
+
+  img {
+    margin-top: 0px;
+    margin-right: 15px;
+    float: left;
+  }
+}
+
 body {
+  margin-top: 2em;
   margin-bottom: 5em;
 }
