@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Simple Subscription Feature feature.
+ */
+
+include_once 'simple_subscription_feature.features.inc';
