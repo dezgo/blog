@@ -8,3 +8,7 @@ sites/*/private
 $ Generated files
 node_modules
 .sass-cache
+
+# tmp files
+*.swp
+*~
