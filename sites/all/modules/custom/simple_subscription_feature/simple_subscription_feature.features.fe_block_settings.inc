@@ -34,7 +34,7 @@ function simple_subscription_feature_default_fe_block_settings() {
         'weight' => 0,
       ),
       'bsderek' => array(
-        'region' => 'highlighted',
+        'region' => 'sidebar_second',
         'status' => 1,
         'theme' => 'bsderek',
         'weight' => -9,

@@ -6504,3 +6504,8 @@ p {
   font-size: 21px;
   line-height: 1.58;
   letter-spacing: -.003em; }
+
+@media (min-width: 768px) {
+  aside.sidebar-follow {
+    position: fixed;
+    right: 30px; } }

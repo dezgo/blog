@@ -118,7 +118,7 @@ function comments_feature_strongarm() {
     'bootstrap_button_size' => '',
     'bootstrap_button_colorize' => 1,
     'bootstrap_button_iconize' => 1,
-    'bootstrap_forms_required_has_error' => 1,
+    'bootstrap_forms_required_has_error' => 0,
     'bootstrap_forms_smart_descriptions' => 1,
     'bootstrap_forms_smart_descriptions_limit' => '250',
     'bootstrap_forms_smart_descriptions_allowed_tags' => 'b, code, em, i, kbd, span, strong',

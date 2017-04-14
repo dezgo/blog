@@ -917,3 +917,9 @@ p {
   letter-spacing: -.003em;
 }
 
+@media (min-width: $screen-sm-min) {
+  aside.sidebar-follow {
+    position: fixed;
+    right: 30px;
+  }
+}
